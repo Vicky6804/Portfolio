@@ -1,0 +1,6 @@
+{
+  "name": "Vignesh M Portfolio",
+  "description": "A professional frontend developer portfolio showcasing three key web applications: Netflix Studio, Clinic Management System, and Swiggy Food Ordering App.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

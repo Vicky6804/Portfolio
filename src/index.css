@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  /* Infinite loader keyframe animation */
+  @keyframes infinite-loading {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(200%); }
+  }
+  
+  .animate-infinite-loading {
+    animation: infinite-loading 1.8s infinite linear;
+  }
+  
+  /* Scrollbar stylings */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: rgba(10, 10, 10, 0.4);
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+}
+
+/* Eye-pleasing background glow */
+body {
+  font-family: var(--font-sans);
+  background-color: #050505;
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
