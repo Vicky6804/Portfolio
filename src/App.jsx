@@ -41,8 +41,8 @@ export default function App() {
   };
 
   return (
-    <div className="relative min-h-screen bg-neutral-950 text-neutral-100 selection:bg-neutral-800 selection:text-white font-sans overflow-x-hidden pb-12">
-      {/* 1. PREMIUM GLASS navbar */}
+    <div className="relative min-h-screen bg-neutral-950 text-neutral-100 selection:bg-neutral-800 selection:text-white font-sans  pb-12">
+      {/* 1. PREMIUM GLASS navbar                                                                                                                    overflow-x-hidden */}
       <header className="sticky top-0 z-50 w-full bg-neutral-950/75 backdrop-blur-md border-b border-neutral-900/80 px-4 md:px-8 py-3.5 flex justify-between items-center">
         <div
           className="flex items-center gap-2.5 cursor-pointer"
@@ -66,8 +66,8 @@ export default function App() {
           {[
             { id: "projects", label: "Projects" },
             { id: "skills", label: "Technical Skills" },
-            { id: "experience", label: "Experience" },
-            { id: "connect", label: "Contact" },
+            { id: "experience", label: "Experience" }
+            // { id: "connect", label: "Contact" },
           ].map((nav) => (
             <button
               key={nav.id}
