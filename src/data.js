@@ -7,7 +7,7 @@ export const personalInfo = {
   github: "https://github.com/Vicky6804",
   githubUsername: "Vicky6804",
   location: "Coimbatore, Tamil Nadu",
-  summary: "B.Tech (AI & Data Science) graduate with a strong focus on building clean, responsive UIs. I have practical experience with React and Next.js through an internship and self-driven projects using live APIs — including a full clinic management system, Netflix Studio, and a Swiggy-style food ordering app. I care about the details: good component structure, reusable code, readable code, and interfaces that actually make sense to users. Looking for a frontend role where I can build real things and keep growing."
+  summary: "B.Tech (AI & Data Science) graduate with a strong focus on building clean, responsive UIs. I have practical experience with React and Next.js through an internship and self-driven projects using live APIs — including a full clinic management system, Netflix Studio, and a Swiggy-style food ordering app. I care about the details: good component structure, reusable code, readable code, and interfaces that actually make sense to users. Looking for a developer role where I can build real things and keep growing."
 };
 
 export const projectsData = [
@@ -46,7 +46,7 @@ export const projectsData = [
     subtitle: "Next.js · Tailwind CSS · MySQL · Firebase · Role-Based Panels",
     description: "An enterprise-grade clinic ecosystem designed with multi-role access controls, doctor schedules, patient visit histories, and stock operations.",
     liveLink: "https://clinic-management-system-smoky.vercel.app/",
-    githubLink: "https://github.com/Vicky6804/clinic-management-system",
+    githubLink: "https://github.com/Vicky6804/ClinicManagementSystem",
     techStack: ["Next.js", "Tailwind CSS", "MySQL", "Firebase", "Node.js", "REST APIs"],
     bullets: [
       "Built the complete frontend and backend using Next.js, Tailwind CSS, MySQL, and Firebase.",
