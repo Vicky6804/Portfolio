@@ -56,7 +56,7 @@ export default function App() {
               {personalInfo.name}
             </span>
             <span className="text-[9px] text-neutral-500 font-medium tracking-wider font-mono mt-0.5">
-              FRONTEND DEV
+              DEVELOPER
             </span>
           </div>
         </div>
