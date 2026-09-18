@@ -45,24 +45,26 @@ export default function ProjectCard({ project }) {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-3 pt-4 border-t border-neutral-800/80">
-            <a 
-              href={project.liveLink}
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex-1 min-w-[130px] bg-neutral-100 hover:bg-neutral-200 text-neutral-950 font-bold px-4 py-2.5 rounded-xl flex items-center justify-center gap-2 text-xs cursor-pointer shadow-md shadow-black/10 transition-colors"
-            >
-              <span>Visit Live Website</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
+            {project.liveLink && (
+              <a 
+                href={project.liveLink}
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex-1 min-w-[140px] bg-neutral-100 hover:bg-neutral-200 text-neutral-950 font-bold px-4 py-2.5 rounded-xl flex items-center justify-center gap-2 text-xs cursor-pointer shadow-md shadow-black/10 transition-colors"
+              >
+                <span>Visit Live App</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
             <a 
               href={project.githubLink || `https://github.com/Vicky6804`}
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-neutral-800 hover:bg-neutral-700 text-neutral-100 border border-neutral-700 font-bold px-4 py-2.5 rounded-xl flex items-center justify-center gap-2 text-xs cursor-pointer transition-colors"
+              className={`${project.liveLink ? 'flex-1 min-w-[130px]' : 'w-full'} bg-neutral-800 hover:bg-neutral-700 text-neutral-100 border border-neutral-700 font-bold px-4 py-2.5 rounded-xl flex items-center justify-center gap-2 text-xs cursor-pointer transition-colors`}
               title="View Source on GitHub"
             >
               <Github className="w-4 h-4" />
-              <span>Source Code</span>
+              <span>GitHub Repository</span>
             </a>
           </div>
         </div>
@@ -139,3 +141,5 @@ export default function ProjectCard({ project }) {
     </div>
   );
 }
+
+
