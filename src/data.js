@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Vignesh M",
   title: "Software Engineer | Full Stack & AI Developer",
   subTitle: "B.Tech in AI & Data Science · Full-Stack Systems & Applied AI",
-  email: "vigneshmuniyandi6@gmail.com",
+  email: "vignesh.m6804@gmail.com",
   phone: "+91 95975 08087",
   github: "https://github.com/Vicky6804",
   githubUsername: "Vicky6804",

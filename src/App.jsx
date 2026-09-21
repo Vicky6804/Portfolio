@@ -75,12 +75,14 @@ export default function App() {
           >
             <Github className="w-4 h-4" />
           </a>
-          <button 
-            onClick={() => handleScrollTo('connect')}
+          <a
+            href="/Vignesh%20CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-neutral-100 hover:bg-neutral-200 text-neutral-950 font-bold px-3 py-1.5 rounded-lg text-xs tracking-wide cursor-pointer transition-colors"
           >
-            Hire Me
-          </button>
+            Resume
+          </a>
         </div>
       </header>
 
